@@ -1,4 +1,4 @@
-import './style.css'
+import "./style.css";
 
 import { changeTheme } from "../components/NavBar/NavBar";
 import { linkPage } from "../utils/linkPage";
@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer/Footer";
 import { Home } from "../pages/Home";
 import { Projects } from "../pages/Projects";
 import { Divider } from "../components/Divider/Divider";
+/* import { about } from "../components/About/About"; */
 
 const header = document.querySelector("header");
 header.innerHTML = NavBar();
@@ -15,6 +16,7 @@ footer.innerHTML = Footer();
 
 linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
+/* linkPage("#aboutlink", about); */
 
 Home();
 
