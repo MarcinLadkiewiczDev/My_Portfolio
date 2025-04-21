@@ -6,7 +6,7 @@ export const projects = [
     image: "/public/ProjectFronts/ThroneAndLiberty.jpg",
     tech: ["HTML5", "CSS3"],
     github: "http://github.com/myuser/proyecto2",
-    link: "www.proyecto1.com",
+    link: "https://throneandliberty.vercel.app/",
   },
   {
     title: "Sapporet Front End",
@@ -18,13 +18,13 @@ export const projects = [
     link: "https://sapporetclone.vercel.app/",
   },
   {
-    title: "Tercer proyecto",
-    description: "Esta es la descripción de mi tercer proyecto",
-    image:
-      "https://images.unsplash.com/photo-1669570094762-828f3dfaf675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
-    tech: ["React", "HTML5", "CSS3", "JavaScript"],
-    github: "http://github.com/myuser/proyecto3",
-    link: "www.proyecto1.com",
+    title: "One Piece Sea Emperors",
+    description:
+      "Little Photo Gallery of One Piece Characters Painted with DOM and adding some filter functions",
+    image: "/public/ProjectFronts/OnePieceSeaEmperors.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/MarcinLadkiewiczDev/Practica_DOM_Gallery",
+    link: "https://onepieceseaemperors.vercel.app/",
   },
   {
     title: "Cuarto proyecto",

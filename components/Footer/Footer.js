@@ -13,5 +13,8 @@ ${Button("/public/icons/Instagram_glyph_svg-128.webp", "Instagram")}
 <a href="https://github.com/MarcinLadkiewiczDev" target="_blank" rel="noopener noreferrer">
 ${Button("/public/icons/github_logo.jpeg", "GitHub")}
 </a>
+<a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">
+${Button("public/icons/FontAwesome-Brands-Discord-icon.png", "Discord")}
+</a>
 </div>
 `;

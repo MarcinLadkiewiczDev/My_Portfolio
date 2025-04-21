@@ -6,10 +6,10 @@ export const ProjectCard = (project) => `
 <div class="header">
 <h2>${project.title}</h2>
 <div>
-<a href="${project.github} targer="_blank">
+<a href="${project.github} target="_blank">
 <img src="public/icons/github_logo.jpeg" alt="GitHub icon">
 </a>
-<a href="${project.link}">
+<a href="${project.link}" target="_blank">
 <img src="public/icons/hyperlink_icon.jpeg" alt="link icon">
 </a>
 </div>
@@ -20,4 +20,4 @@ export const ProjectCard = (project) => `
 <p class="tech">${project.tech.join(" - ")}</p>
 </div>
 </div>
-`
+`;
