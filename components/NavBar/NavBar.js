@@ -3,10 +3,12 @@ import "../NavBar/navBar.css";
 
 export const NavBar = () => `
 <nav>
-<h2>Marcin Ladkiewicz</h2>
+<a href="homelink">
+<h2>MLad</h2>
+</a>
 <ul>
     <li>
-        <a href="#" id="homelink">Home</a>
+        <a href="#" id="homelink" class="hover-underline">Home</a>
     </li>
     <li>
         <a href="#" id="projectslink">Projects</a>
