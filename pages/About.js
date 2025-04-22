@@ -5,7 +5,7 @@ export const About = () => {
   const main = document.querySelector("main");
   cleanPage(main);
   main.innerHTML = `<section class="aboutme">
-    <img src="public/profilepicCircular.png" alt="me"/>
+    <img src="/profilepicCircular.png" alt="me"/>
     <div class="bento">
     <p>I'm a passionate and energetic person with a deep love for gaming, music, and hanging out with friends.
       Whether it's exploring immersive game worlds, skating through the city, or spending time with my friends, I thrive on experiences that keep me active and inspired.
