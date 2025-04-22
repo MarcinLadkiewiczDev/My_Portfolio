@@ -8,13 +8,13 @@ export const NavBar = () => `
 </a>
 <ul>
     <li>
-        <a href="#" id="homelink" class="hover-underline">Home</a>
+        <a href="#" id="homelink" class="underline">Home</a>
     </li>
     <li>
-        <a href="#" id="projectslink">Projects</a>
+        <a href="#" id="projectslink" class="underline">Projects</a>
     </li>
     <li>
-        <a href="#" id="about">About Me</a>
+        <a href="#" id="aboutlink" class="underline">About Me</a>
     </li>
     <li>
         <button id="themeBtn">☀️</button>

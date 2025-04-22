@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer/Footer";
 import { Home } from "../pages/Home";
 import { Projects } from "../pages/Projects";
 import { Divider } from "../components/Divider/Divider";
-/* import { about } from "../components/About/About"; */
+import { About } from "../pages/About";
 
 const header = document.querySelector("header");
 header.innerHTML = NavBar();
@@ -16,7 +16,7 @@ footer.innerHTML = Footer();
 
 linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
-/* linkPage("#aboutlink", about); */
+linkPage("#aboutlink", About);
 
 Home();
 

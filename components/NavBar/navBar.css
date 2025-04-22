@@ -26,14 +26,13 @@ nav button {
   transform: scale(1);
 }
 
-a {
-  color: #ffffff;
+.underline {
   position: relative;
   display: inline-block;
 }
 
-a::after,
-a::before {
+.underline::after,
+.underline::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -46,12 +45,12 @@ a::before {
   transition: transform 0.4s ease-out;
 }
 
-a::before {
+.underline::before {
   top: -5px;
   transform-origin: left;
 }
 
-a:hover::after,
-a:hover::before {
+.underline:hover::after,
+.underline:hover::before {
   transform: scaleX(1);
 }
