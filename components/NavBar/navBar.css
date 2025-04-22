@@ -10,7 +10,9 @@ nav {
 
 @media (max-width: 770px) {
   nav {
-    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
   }
 }
 

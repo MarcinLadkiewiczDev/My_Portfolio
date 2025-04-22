@@ -24,7 +24,14 @@
 
 .my-btn:before {
   content: "";
-  background: linear-gradient(45deg, #002bff, #7a00ff, #002bff, #7a00ff);
+  background: linear-gradient(
+    45deg,
+    #002bff,
+    #7a00ff,
+    #ffffff,
+    #002bff,
+    #7a00ff
+  );
   position: absolute;
   top: -2px;
   left: -2px;

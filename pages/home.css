@@ -9,26 +9,6 @@
   text-align: center;
 }
 
-@media (max-width: 700px) {
-  .home {
-    padding: 0 2rem;
-  }
-  .home > h1 {
-    font-size: 5 rem;
-    background: linear-gradient(
-      to right,
-      #9f45e8 0%,
-      #33d2ff 25%,
-      #a357dd 50%,
-      #33d2ff 75%,
-      #a357dd 100%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
 .home > h1 {
   font-size: 5.5rem;
   background: linear-gradient(
@@ -46,4 +26,13 @@
 
 .home > a {
   font-size: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .home {
+    padding: 0 2rem;
+  }
+  .home > h1 {
+    font-size: 3.5rem;
+  }
 }
