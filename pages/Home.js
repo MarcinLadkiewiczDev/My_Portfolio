@@ -15,7 +15,7 @@ export const Home = () => {
           Always learning, always building.</p>
         <a href="mailto:marcin.ladkiewicz@gmail.com">
           ${Button(
-            "./public/icons/icons8-dedos-señal-de-paz-50.png",
+            "/icons/icons8-dedos-señal-de-paz-50.png",
             "Say Hi!"
           )}
         </a>
