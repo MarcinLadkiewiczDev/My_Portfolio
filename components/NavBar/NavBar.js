@@ -3,7 +3,7 @@ import "../NavBar/navBar.css";
 
 export const NavBar = () => `
 <nav>
-<a href="homelink">
+<a href="https://marcinladkiewicz.vercel.app/">
 <h2>MLad</h2>
 </a>
 <ul>
