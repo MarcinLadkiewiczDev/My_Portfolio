@@ -1,5 +1,5 @@
 import "./footer.css";
-import { Button } from "../Button/button";
+import { Button } from "../Button/Button";
 
 export const Footer = () => `
 <h2>Find Me</h2>
