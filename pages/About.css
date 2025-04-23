@@ -18,3 +18,20 @@
 .aboutme > img:hover {
   scale: 1.1;
 }
+
+.description {
+  width: 40%;
+  line-height: 30px;
+}
+
+span {
+  color: var(--highlight);
+}
+
+@media (max-width: 770px) {
+  .aboutme {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+}

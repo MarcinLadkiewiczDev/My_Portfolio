@@ -10,9 +10,13 @@ nav {
 
 @media (max-width: 770px) {
   nav {
+    height: 15vh;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 10px;
+  }
+  nav > ul{
+    gap: 0.5rem;
   }
 }
 

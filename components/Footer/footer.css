@@ -12,6 +12,13 @@ footer {
   footer {
     padding: 0 2rem;
     gap: 2rem;
+    justify-content: center;
+  }
+  footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 

@@ -27,21 +27,23 @@ export const projects = [
     link: "https://onepieceseaemperors.vercel.app/",
   },
   {
-    title: "Cuarto proyecto",
-    description: "Esta es la descripción de mi cuarto proyecto",
-    image:
-      "https://images.unsplash.com/photo-1664575198308-3959904fa430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-    tech: ["React", "HTML5", "CSS3", "JavaScript"],
-    github: "http://github.com/myuser/proyecto4",
-    link: "www.proyecto1.com",
+    title: "GOT Character Selection - Async",
+    description:
+      "Little API proyect to practice Async with JS. Easily choose your favourite GOT character.",
+    image: "public/ProjectFronts/gotcharactersselection.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github:
+      "https://github.com/MarcinLadkiewiczDev/ejercicios_async_js/tree/main/ejercicio1",
+    link: "https://gotcharacterselection.vercel.app/",
   },
   {
-    title: "Quinto proyecto",
-    description: "Esta es la descripción de mi quinto proyecto",
-    image:
-      "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80",
-    tech: ["React", "HTML5", "CSS3", "JavaScript"],
-    github: "http://github.com/myuser/proyecto5",
-    link: "www.proyecto1.com",
+    title: "Random Pokemon Generator",
+    description:
+      "Another Async practice project with the PokeAPI. Random Pokemon each time you refresh or press the button.",
+    image: "public/ProjectFronts/randompokemongenerator.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github:
+      "https://github.com/MarcinLadkiewiczDev/ejercicios_async_js/tree/main/ejercicio2",
+    link: "https://randompokemongenerator-alpha.vercel.app/",
   },
 ];
