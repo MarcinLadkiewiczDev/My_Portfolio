@@ -30,8 +30,16 @@ span {
 
 @media (max-width: 770px) {
   .aboutme {
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
+  }
+  .description{
+    width:300px;
+    line-height: 20px;
+  }
+  .aboutme > img {
+    width: 200px;
+    height: 200px;
   }
 }
